@@ -1,0 +1,52 @@
+{
+    "name": "Auto Forward Bot",
+    "description": "I am a Auto Forward Bot, I can forward files from a Public/Private Channel to a Public/Private Group/Channel without SESSION STRING.",
+    "keywords": ["telegram", "index"],
+    "repository": "https://github.com/MrMKN/Eva-Forward-Bot",
+    "env": {
+        "ADMINS": {
+            "description": "Id of Admins who have access to Bot. Multiple id use space to split",
+            "value": "",
+            "required": true
+        },
+        "API_ID": {
+            "description": "API ID to configure Bot ownership, Get this value from https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "API HASH to configure Bot ownership, Get this value from https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Your bot token to define on which bot app will work, Get this value from @BotFather.",
+            "required": true       
+        },
+        "TARGET_CHANNEL": {
+            "description": "A channel where bot will send files. channel id with -100xxxxxxx",
+            "value": "",
+            "required": true
+        },
+        "FILE_CAPTION": {
+            "description": "your custom file caption",
+            "value": "{file_name}\n\n🔘 size - {file_size}\n\n╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗\n♻️ 𝙅𝙊𝙄𝙉 :- @Mr_Movies_Main \n♻️ 𝙅𝙊𝙄𝙉 :- @mknmovies \n╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝ ",
+            "required": false 
+        },
+        "LOG_CHANNEL": {
+            "description": "send all error and json file channel mean Bach file channel",
+            "value": "",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}

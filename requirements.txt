@@ -1,0 +1,5 @@
+git+https://github.com/MrMKN/pyrogram                          
+tgcrypto
+requests
+bs4
+python-dotenv
