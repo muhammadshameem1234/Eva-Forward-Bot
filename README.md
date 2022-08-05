@@ -10,7 +10,7 @@
 
 ## Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MrMKN/Eva-Forward-Bot)                                
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/muhammadshameem1234/Eva-Forward-Bot)                                
 
 ## Credits 
 * [![EvaMaria-Devolopers](https://img.shields.io/static/v1?label=EvaMaria&message=Devolopers&color=critical)](https://t.me/EvaMariaDevs)
